@@ -1,0 +1,15 @@
+{
+	"name": "njmyers/wordpress-api-cors",
+	"license": "MIT",
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "^1.0"
+	},
+	"description": "Add CORS to WP-API",
+	"authors": [
+		{
+			"name": "Nick Myers",
+			"email": "nickmyers111@gmail.com"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+Add Cors to WP-API
