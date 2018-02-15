@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 add_action( 'admin_init', 'wordpress_cors_settings' );
 
@@ -31,4 +31,3 @@ function wordpress_cors_settings_page() {
 
 
 ?>
- -->

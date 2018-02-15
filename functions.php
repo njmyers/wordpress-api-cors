@@ -10,7 +10,11 @@ Author: Nick Myers
 
  */
 
-defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+};
+
+// require_once dirname( __FILE__ ) . 'settings.php';
 
 function my_customize_rest_cors() {
 	remove_filter( 'rest_pre_serve_request', 'rest_send_cors_headers' );
