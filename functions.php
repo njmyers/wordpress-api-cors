@@ -22,8 +22,7 @@ function my_customize_rest_cors() {
 		header( 'Access-Control-Allow-Origin: *' );
 		header( 'Access-Control-Allow-Methods: GET' );
 		header( 'Access-Control-Allow-Credentials: true' );
-		header( 'Access-Control-Expose-Headers: Link', true );
-		header( 'Access-Control-Expose-Headers: X-WP-TotalPages', true );
+		header( 'Access-Control-Expose-Headers: Link, X-WP-TotalPages', true );
 		return $value;
 	} );
 };
